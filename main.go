@@ -49,37 +49,3 @@ func PowerUp(profile Profile, multiplier int) Profile {
 	profile.Exp = profile.Exp + (profile.Exp * multiplier)
 	return profile
 }
-
-// var profile = Profile{}
-
-// func main() {
-// 	makeProfile("Sasuke")
-// 	powerUp(2)
-// 	fmt.Println(profile)
-// }
-
-// func makeProfile(name string) {
-
-// 	profile.Name = name
-// 	if name == "Sasuke" {
-// 		profile.Health = 200
-// 		profile.Power = 100
-// 		profile.Exp = 0
-// 	} else if name == "Goku" {
-// 		profile.Health = 400
-// 		profile.PowePrintln
-// 		profile.Exp = 100
-// 	} else if name == "Naruto" {
-// 		profile.Health = 150
-// 		profile.Power = 200
-// 		profile.Exp = 50
-// 	}
-
-// }
-
-// func powerUp(multiplier int) {
-// 	profile.Health = profile.Health * multiplier
-// 	profile.Power = profile.Power * multiplier
-// 	profile.Exp = profile.Exp * multiplier
-
-// }
